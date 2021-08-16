@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
 @EqualsAndHashCode
 @Builder
 public class Calendario {
-    private long id;
+    private Long id;
     private TipoData tipoData;
     private String descricao;
     private LocalDateTime dataEspecial;

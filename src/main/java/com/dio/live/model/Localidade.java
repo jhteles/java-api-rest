@@ -11,7 +11,7 @@ import javax.persistence.ManyToOne;
 @EqualsAndHashCode
 @Builder
 public class Localidade {
-    private long id;
+    private Long id;
     @ManyToOne
     private NivelAcesso nivelAcesso;
     private String descricao;

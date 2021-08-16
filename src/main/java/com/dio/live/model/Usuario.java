@@ -13,7 +13,7 @@ import java.time.LocalDateTime;
 @EqualsAndHashCode
 @Builder
 public class Usuario {
-    private long id;
+    private Long id;
     @ManyToOne
     private CategoriaUsuario categoriaUsuario;
     private String nome;
